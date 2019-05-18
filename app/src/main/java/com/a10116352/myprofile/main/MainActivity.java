@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.Adapter;
 import android.widget.Toast;
+"hallo"
 
 import com.a10116352.myprofile.list_friends.ListFriendsFragment;
 import com.a10116352.myprofile.profile.ProfileFragment;
