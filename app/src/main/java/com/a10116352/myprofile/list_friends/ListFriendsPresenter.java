@@ -1,6 +1,6 @@
 package com.a10116352.myprofile.list_friends;
 
-import com.oleg.profileapp.Model.Friend;
+import com.a10116352.myprofile.Model.Friend;
 
 public class ListFriendsPresenter implements ListFriendsContract.Presenter{
     @Override

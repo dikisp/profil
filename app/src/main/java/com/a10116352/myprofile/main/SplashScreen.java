@@ -1,11 +1,8 @@
 package com.a10116352.myprofile.main;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.oleg.profileapp.R;
+import android.support.v7.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
 

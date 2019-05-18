@@ -1,4 +1,4 @@
-package com.oleg.profileapp.contact;
+package com.a10116352.myprofile.contact;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.a10116352.myprofile.contact.ContactContract;
-import com.oleg.profileapp.Model.Friend;
+import com.a10116352.myprofile.Model.Friend;
 
 import java.util.List;
 

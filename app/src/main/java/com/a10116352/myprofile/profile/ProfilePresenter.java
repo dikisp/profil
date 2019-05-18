@@ -1,7 +1,7 @@
 package com.a10116352.myprofile.profile;
 
-import com.oleg.profileapp.Model.Profile;
-import com.oleg.profileapp.repo.Repository;
+import com.a10116352.myprofile.Model.Profile;
+import com.a10116352.myprofile.repo.Repository;
 
 import java.util.ArrayList;
 import java.util.List;

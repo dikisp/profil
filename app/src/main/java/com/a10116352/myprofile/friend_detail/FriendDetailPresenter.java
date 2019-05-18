@@ -1,4 +1,4 @@
-package com.oleg.profileapp.friend_detail;
+package com.a10116352.myprofile.friend_detail;
 
 public class FriendDetailPresenter implements FriendDetailContract.Presenter {
     @Override

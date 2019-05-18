@@ -1,7 +1,7 @@
 package com.a10116352.myprofile.friend_detail;
 
-import com.oleg.profileapp.BasePresenter;
-import com.oleg.profileapp.BaseView;
+import com.a10116352.myprofile.BasePresenter;
+import com.a10116352.myprofile.BaseView;
 
 public class FriendDetailContract {
 

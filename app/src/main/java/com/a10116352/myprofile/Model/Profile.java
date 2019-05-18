@@ -1,4 +1,4 @@
-package com.oleg.profileapp.Model;
+package com.a10116352.myprofile.Model;
 
 public class Profile {
     String foto,nim,nama,kelas,deskripsi;

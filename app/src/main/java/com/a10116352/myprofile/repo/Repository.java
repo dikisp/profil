@@ -1,17 +1,17 @@
 package com.a10116352.myprofile.repo;
 
-import com.oleg.profileapp.Model.Friend;
-import com.oleg.profileapp.Model.Profile;
+import com.a10116352.myprofile.Model.Friend;
+import com.a10116352.myprofile.Model.Profile;
 
 import java.util.ArrayList;
 
 public class Repository {
      static String[] profileData = new String[]{
             "",
-            "10116347",
-            "Lukmannudin",
+            "10116352",
+            "DIKI SUPRIADI",
             "IF - 8",
-            "Learn From Yesterday, Life for Today, Hope for Tomorrow "
+            "i hope tommorow will the best before"
     };
 
      static String[] contactData = new String[]{

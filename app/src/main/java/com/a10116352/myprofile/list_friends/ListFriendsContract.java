@@ -1,8 +1,8 @@
 package com.a10116352.myprofile.list_friends;
 
-import com.oleg.profileapp.BasePresenter;
-import com.oleg.profileapp.BaseView;
-import com.oleg.profileapp.Model.Friend;
+import com.a10116352.myprofile.BasePresenter;
+import com.a10116352.myprofile.BaseView;
+import com.a10116352.myprofile.Model.Friend;
 
 public class ListFriendsContract {
     interface View extends BaseView<Presenter>{

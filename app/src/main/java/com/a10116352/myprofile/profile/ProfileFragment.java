@@ -1,5 +1,6 @@
 package com.a10116352.myprofile.profile;
 
+import android.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,8 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.oleg.profileapp.Model.Profile;
-import com.oleg.profileapp.R;
+import com.a10116352.myprofile.Model.Profile;
+import com.a10116352.myprofile.R;
 
 import java.util.List;
 

@@ -1,6 +1,8 @@
 package com.a10116352.myprofile.list_friends;
 
+import android.app.Fragment;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,9 +10,9 @@ import android.view.ViewGroup;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.oleg.profileapp.Model.Friend;
-import com.oleg.profileapp.R;
-import com.oleg.profileapp.profile.ProfileContract;
+import com.a10116352.myprofile.Model.Friend;
+import com.a10116352.myprofile.R;
+import com.a10116352.myprofile.profile.ProfileContract;
 
 
 public class ListFriendsFragment extends Fragment implements ListFriendsContract.View {

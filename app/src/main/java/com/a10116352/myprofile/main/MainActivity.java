@@ -1,27 +1,18 @@
 package com.a10116352.myprofile.main;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.ListFragment;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
-
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.Adapter;
-import android.widget.Toast;
-"hallo"
 
+import com.a10116352.myprofile.R;
+import com.a10116352.myprofile.contact.ContactFragment;
 import com.a10116352.myprofile.list_friends.ListFriendsFragment;
 import com.a10116352.myprofile.profile.ProfileFragment;
-import com.google.android.material.bottomnavigation.BottomNavigationMenu;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.oleg.profileapp.R;
-import com.oleg.profileapp.contact.ContactFragment;
-import com.oleg.profileapp.list_friends.ListFriendsFragment;
-import com.oleg.profileapp.profile.ProfileFragment;
+
+import androidx.annotation.NonNull;
+
 
 public class MainActivity extends AppCompatActivity {
     private int menuProfile = 0;
