@@ -4,6 +4,7 @@ package com.diki.myprofile.contact;
 // DIKI SUPRIADI
 // IF-8
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -25,7 +26,7 @@ public class ContactFragment extends Fragment implements ContactContract.View {
     private ProgressBar progressBar;
     private ContactContract.Presenter mPresenter;
     private TextView telepon,email,instagram,twitter,facebook;
-    private Button button;
+    private Button button1,button2,button3,button4,button5;
 
 
     public ContactFragment() {
@@ -54,9 +55,13 @@ public class ContactFragment extends Fragment implements ContactContract.View {
         facebook = view.findViewById(R.id.tv_contact_facebook);
         progressBar = view.findViewById(R.id.pb_contact);
 
-        button = view.findViewById(R.id.telp);
+        button1 = view.findViewById(R.id.telp);
+        button2 = view.findViewById(R.id.email);
+        button3 = view.findViewById(R.id.inst);
+        button4 = view.findViewById(R.id.twitt);
+        button5 = view.findViewById(R.id.fb);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
                 callIntent.setData(Uri.parse("tel:082316901623"));
@@ -64,6 +69,65 @@ public class ContactFragment extends Fragment implements ContactContract.View {
                 startActivity(callIntent);
             }
         });
+
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                Uri uri = Uri.parse("http://instagram.com/suara_hati69");
+                Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
+                likeIng.setPackage("com.instagram.android");
+
+                try {
+                    startActivity(likeIng);
+                } catch (ActivityNotFoundException e) {
+                    startActivity(new Intent(Intent.ACTION_VIEW,
+                            Uri.parse("http://instagram.com/suara_hati69")));
+                }
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                        "mailto","dikisupriadi021@gmail.com", null));
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
+                emailIntent.putExtra(Intent.EXTRA_TEXT, "Body");
+                startActivity(Intent.createChooser(emailIntent, "Send email..."));
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                Uri uri = Uri.parse("http://m.twitter.com/suara_hati69");
+                Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
+                likeIng.setPackage("com.twitter.android");
+
+                try {
+                    startActivity(likeIng);
+                } catch (ActivityNotFoundException e) {
+                    startActivity(new Intent(Intent.ACTION_VIEW,
+                            Uri.parse("http://m.twitter.com/suara_hati69")));
+                }
+            }
+        });
+
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                Uri uri = Uri.parse("http://m.facebook.com/diki.supriadi");
+                Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
+                likeIng.setPackage("com.facebook.android");
+
+                try {
+                    startActivity(likeIng);
+                } catch (ActivityNotFoundException e) {
+                    startActivity(new Intent(Intent.ACTION_VIEW,
+                            Uri.parse("http://m.facebook.com/diki.supriadi")));
+                }
+            }
+        });
+
+
 
         return view;
     }
