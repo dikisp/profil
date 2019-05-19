@@ -7,4 +7,5 @@
     <string name="nama">nama</string>
     <string name="nim">nim</string>
     <string name="deskripsi">deskripsi</string>
+    <string name="action_settings">Settings</string>
 </resources>

@@ -1,5 +1,8 @@
 package com.diki.myprofile.list_friends;
-
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.diki.myprofile.Model.Friend;
-import com.oleg.myprofile.R;
+import com.diki.myprofile.R;
 
 
 public class ListFriendsFragment extends Fragment implements ListFriendsContract.View {

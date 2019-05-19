@@ -1,5 +1,8 @@
 package com.diki.myprofile.data;
-
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
 import com.diki.myprofile.Model.Friend;
 import com.diki.myprofile.Model.Profile;
 

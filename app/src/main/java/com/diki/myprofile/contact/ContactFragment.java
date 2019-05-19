@@ -1,16 +1,23 @@
 package com.diki.myprofile.contact;
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
 import com.diki.myprofile.Model.Friend;
-import com.oleg.myprofile.R;
+import com.diki.myprofile.R;
 
 import java.util.List;
 
@@ -18,6 +25,8 @@ public class ContactFragment extends Fragment implements ContactContract.View {
     private ProgressBar progressBar;
     private ContactContract.Presenter mPresenter;
     private TextView telepon,email,instagram,twitter,facebook;
+    private Button button;
+
 
     public ContactFragment() {
         // Required empty public constructor
@@ -28,6 +37,9 @@ public class ContactFragment extends Fragment implements ContactContract.View {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mPresenter = new ContactPresenter(this);
+
+
+
     }
 
     @Override
@@ -40,8 +52,18 @@ public class ContactFragment extends Fragment implements ContactContract.View {
         instagram = view.findViewById(R.id.tv_contact_instagram);
         twitter = view.findViewById(R.id.tv_contact_twitter);
         facebook = view.findViewById(R.id.tv_contact_facebook);
-
         progressBar = view.findViewById(R.id.pb_contact);
+
+        button = view.findViewById(R.id.telp);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:082316901623"));
+
+                startActivity(callIntent);
+            }
+        });
 
         return view;
     }

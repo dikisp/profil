@@ -1,10 +1,13 @@
 package com.diki.myprofile.friend_detail;
-
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.oleg.myprofile.R;
+import com.diki.myprofile.R;
 
 public class FriendDetailActivity extends AppCompatActivity  implements FriendDetailContract.View{
 

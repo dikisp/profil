@@ -14,9 +14,8 @@
         <ProgressBar
             android:id="@+id/pb_contact"
             android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center"
-            />
+            android:layout_height="29dp"
+            android:layout_gravity="center" />
 
         <ScrollView
             android:id="@+id/sr_contact"
@@ -56,7 +55,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="08912423" />
+                        android:text="082316901623" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -78,7 +77,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="laodelukmannudinpriatna@gmail.com" />
+                        android:text="dikisupriadi021a@gmail.com" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -100,7 +99,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="lukmannudinpriatna" />
+                        android:text="suara_hati69" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -122,7 +121,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="lord_lukman19" />
+                        android:text="suara_hati69" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -144,8 +143,14 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Lukmannudin Priatna" />
+                        android:text="Diki Supriadi" />
                 </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Call"
+                    android:id="@+id/telp"/>
             </LinearLayout>
         </ScrollView>
     </FrameLayout>

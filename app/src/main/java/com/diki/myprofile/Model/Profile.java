@@ -1,5 +1,8 @@
 package com.diki.myprofile.Model;
-
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
 public class Profile {
     String foto,nim,nama,kelas,deskripsi;
 

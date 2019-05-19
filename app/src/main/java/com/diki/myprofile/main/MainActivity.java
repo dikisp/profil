@@ -1,5 +1,8 @@
 package com.diki.myprofile.main;
-
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -8,7 +11,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.oleg.myprofile.R;
+import com.diki.myprofile.R;
 import com.diki.myprofile.contact.ContactFragment;
 import com.diki.myprofile.list_friends.ListFriendsFragment;
 import com.diki.myprofile.profile.ProfileFragment;

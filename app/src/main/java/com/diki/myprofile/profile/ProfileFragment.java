@@ -1,16 +1,22 @@
 package com.diki.myprofile.profile;
-
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
 import com.diki.myprofile.Model.Profile;
-import com.oleg.myprofile.R;
+import com.diki.myprofile.R;
 
 import java.util.List;
 
@@ -19,6 +25,7 @@ public class ProfileFragment extends Fragment implements ProfileContract.View {
     private ProfileContract.Presenter mPresenter;
     private ProgressBar progressBar;
     private TextView nim, nama, kelas, deskripsi;
+    private Button button;
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -43,6 +50,7 @@ public class ProfileFragment extends Fragment implements ProfileContract.View {
         deskripsi = view.findViewById(R.id.tvprofile_deskripsi);
 
         progressBar = view.findViewById(R.id.pb_profile);
+
 
         return view;
     }

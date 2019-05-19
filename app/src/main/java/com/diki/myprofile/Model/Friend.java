@@ -1,5 +1,8 @@
 package com.diki.myprofile.Model;
-
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
 public class Friend {
     String nim,nama,kelas,telepon,email,twitter,instagram,facebook;
 

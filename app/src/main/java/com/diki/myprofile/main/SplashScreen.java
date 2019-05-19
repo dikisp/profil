@@ -1,5 +1,8 @@
 package com.diki.myprofile.main;
-
+// 17 MEI
+// 10116352
+// DIKI SUPRIADI
+// IF-8
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
