@@ -1,4 +1,4 @@
-package com.diki.myprofile.repo;
+package com.diki.myprofile.data;
 
 import com.diki.myprofile.Model.Friend;
 import com.diki.myprofile.Model.Profile;
@@ -18,11 +18,11 @@ public class Repository {
              "",
              "",
              "",
-             "08813095231",
-             "laodelukmannudinpriatna@gmail.com",
-             "lord_lukman19",
-             "lukmannudinpriatna",
-             "Lukmannudin Priatna"
+             "082316901623",
+             "dikisupriadi021@gmail.com",
+             "suara_hati69",
+             "suara_hati69",
+             "Diki Supriadi"
 
      };
 
