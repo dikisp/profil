@@ -1,7 +1,7 @@
 package com.diki.myprofile.profile;
 
 import com.diki.myprofile.Model.Profile;
-import com.diki.myprofile.repo.Repository;
+import com.diki.myprofile.data.Repository;
 
 import java.util.ArrayList;
 import java.util.List;

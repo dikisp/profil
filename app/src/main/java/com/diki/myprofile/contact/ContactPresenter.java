@@ -1,7 +1,7 @@
 package com.diki.myprofile.contact;
 
 import com.diki.myprofile.Model.Friend;
-import com.diki.myprofile.repo.Repository;
+import com.diki.myprofile.data.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
